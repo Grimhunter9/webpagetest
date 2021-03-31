@@ -13,7 +13,7 @@ class Contacts extends  React.Component{
                 <div className="bar1">
                     <div className="ba">
                         <p className="info" >Contacts <img  className="phone" src={Phone} alt=""/></p>
-                        <p  className="info3"><strong>Email us :<a className="eml" href="mailto:tbestfuture01@gmail.com">tbestfuture01@gmail.com</a> </strong></p>
+                        <p  className="info3"><strong>Email us :{" "} <a className="eml" href="mailto:tbestfuture01@gmail.com">tbestfuture01@gmail.com</a> </strong></p>
                         <p className="info2" ><strong>For more information contact us:</strong></p>
                      
 
