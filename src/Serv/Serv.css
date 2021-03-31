@@ -1,0 +1,151 @@
+.service{
+margin-top: 3vw;
+		
+}
+
+
+
+
+.do{
+	display: flex;
+	font-size: 3vw;
+	margin-left:6vw;
+	margin-right:1vw;
+	float: left;
+	color: whitesmoke;	
+}
+
+.for{
+	display: flex;
+	width:3.5em;
+	margin-left: 24vw;		
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	margin-top: 2vw;
+
+}
+
+
+
+.options{
+	
+	margin-top: 2vw;
+	margin-right: 120px;
+	
+	
+}
+
+
+.options1{
+	background: rgb(10, 82, 116);
+	color: cornsilk;
+	
+	
+}
+
+
+.options2{
+    background: rgb(10, 82, 116);
+	margin-top: 2vw;
+	color: cornsilk;
+  
+}
+
+
+.icon{
+	font-size: 3.5vw;
+}
+
+
+
+
+.card1{
+
+	box-shadow: 0.5vw 0.5vw rgba(17, 17, 17, 0.664);
+	
+	
+
+}
+
+.card2{
+
+	box-shadow: 0.5vw 0.5vw rgba(17, 17, 17, 0.664);
+	
+}
+
+
+
+
+/*******************************************************************************************/
+
+@media(max-width:1200px){
+
+	.do{
+		display: flex;
+		font-size: 5vw;
+		
+		margin-left:13vw;
+		float: left;
+		color: whitesmoke;	
+		
+	}
+	
+
+	.for{
+		display: flex;
+		width:8vw;
+		margin-left: 2vw;	
+		
+	}
+	
+
+	.container{
+		display: flex;
+		flex-direction: column;
+		margin-top: 2vw;
+		
+		
+	
+	}
+
+	.options{
+	
+		margin-top: 2vw;
+		margin-right: 0;
+		
+	}
+	
+	.options1{
+	
+		font-family: poppins;
+		font-size:5vw ;
+		margin-left: 5vw;
+		margin-right: 5vw;
+		
+		color: whitesmoke;	
+	}
+
+	.icon{
+		font-size: 5vw;
+
+	}
+
+	.card1{
+		margin-left: 5vw;
+		margin-right: 5vw;
+		font-size: 5vw;
+		
+	}
+
+
+	.cards{
+		margin-top: 2vw;
+		margin-left: 5vw;
+		margin-right: 5vw;
+		font-size: 5vw;
+		
+	}
+}

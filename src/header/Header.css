@@ -1,0 +1,140 @@
+.header {
+	background:rgb(12, 108, 163);
+	width: 100vw;
+	z-index: 10;
+	position: fixed;
+	display: flex;	
+}
+
+
+
+.earth{
+    display: flex;
+    float: left;
+    width: 10vw;
+	margin-top: 1.5vw;
+	
+	
+}
+
+
+.mig{
+    float: left;
+	display: flex;
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-family: poppins;
+	color: whitesmoke;	
+}
+
+.navbar {
+	float: right;
+	color: whitesmoke;   
+
+	
+}
+
+.moon{
+	display: flex;
+	float: right;
+	width:5em;
+	margin-left: 5vw;
+}
+nav a{
+	
+	font-family: poppins;
+	letter-spacing: 0.1em;
+		
+}
+
+.b{
+	font-size: 2vw;
+    
+	margin-left: 6vw;
+	color: whitesmoke;
+	
+}
+
+
+
+
+
+nav a:hover{
+	color: yellow;
+	text-decoration: none;
+}
+
+
+.nav-button{
+	margin-left: 1.3vw;
+    display: flex;
+
+}
+
+
+
+.btn-bar{
+	background:#007BFF;
+	margin:0.1vw;
+	color: white;
+	border-radius: 0.5vw;
+
+	
+	
+}
+
+
+
+/**********************************************************************************************/
+@media (max-width:1200px){
+
+	.earth{
+		width:20vw;	
+	}
+
+	.mig{
+		float: left;
+		display: flex;
+		font-size: 5vw;
+		margin-top: 4vw;
+		margin-right: 5vw;
+		font-family: poppins;
+		color: whitesmoke;	
+		
+	}
+
+	.moon{
+		display: flex;
+		float: right;
+		width:5em;
+		margin-left: 20vw;
+	}
+
+	
+	.b{
+		font-size: 4vw;
+		margin-left: 20vw;
+		color: whitesmoke;
+	
+}
+
+
+
+	.nav-button{
+		margin-left: 20vw;
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.btn-bar{
+		font-size: 5vw;
+		margin:1vw;
+		border-radius: 2vw;
+		
+		
+	}
+
+}
+
+	

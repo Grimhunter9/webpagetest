@@ -1,0 +1,21 @@
+.banner-area {
+	width: 100vw;
+	height: 30vw;
+	position: fixed;
+	top: 8vw;
+	background-image: url(https://s3.treasury.qld.gov.au/files/Programs-and-Policies-Business-Development-Fund-1.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 8vw;
+	font-size: 5vw;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+	
+}
+
+
+

@@ -1,0 +1,96 @@
+.price{
+    margin-top:4.5vw;
+ 
+    
+
+} 
+
+.our{
+    display: flex;
+	font-size: 3.5vw;
+	margin-left:6vw;
+	margin-right:1vw;
+    color: white;
+}
+
+.money{
+    font-size:4rem;
+    margin-left: 2vw;
+}
+
+.pc{
+    display: flex;
+    margin-left:5vw;
+    margin-right:10vw;
+    
+    
+    
+}
+
+.cardh{
+    background-color: rgb(10, 82, 116);
+    color: white;
+    
+}
+
+.cardf{
+    background-color: rgb(10, 82, 116);
+    color: yellow;
+}
+
+.cp{
+    font-size: 1.5vw;
+    margin: 1vw;
+    border: none;
+    box-shadow: 0.5vw 0.5vw rgba(17, 17, 17, 0.664);
+}
+
+.cp:hover{
+    transform: scale(0.9);
+    
+}
+
+.con{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.con:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+/*********************************************************************************/
+
+@media(max-width:1200px){
+
+    .our{
+        font-size: 5vw;
+        margin-left:13vw;
+    
+    }
+    
+    .money{
+        font-size:8vw;
+    }
+
+
+
+
+    .pc{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cc{
+        font-size: 5vw;
+    }
+
+
+    .con{
+        font-size: 4vw;
+    }
+
+   
+}

@@ -1,0 +1,258 @@
+.contacts{
+    margin-top:4.5vw;
+    /*background-image: linear-gradient(90deg,#2d6677,#f4494e);*/
+    background-color: rgb(10, 82, 116);
+}
+
+ 
+
+.info{
+    display: flex;
+	font-size: 3.5vw;
+	margin-left:6.5vw;
+	margin-right:1vw;
+    color: white;
+}
+
+.phone{
+    width:3rem;
+    margin-left: 3vw;
+
+
+}
+
+ .info2{
+ display: flex;
+ font-size:1.2rem;
+ margin-left: 7vw;
+ color: whitesmoke;
+
+}
+
+.info3{
+    display: flex;
+    font-size:1.2rem;
+    margin-left: 7vw;
+    color: whitesmoke;
+}
+.eml{
+    
+    color: cornsilk;
+}
+.eml:hover{
+    text-decoration: none;
+    color:rgb(0, 238, 255) ;
+
+}
+
+.bar1{
+   
+    display: flex;
+}
+
+.bar2{
+  
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5vw;
+    
+   
+}
+
+.bar3{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 26vw;
+    
+    
+
+}
+
+
+.information{
+    padding: 1vw 1vw;
+    border-color: rgba(0,0,0,.1);
+    color: #5c5b66;
+    font-size: 1vw;
+    text-align: center;
+    width: 30vw;
+    margin-top:1vw;
+    border-radius: 0.5vw;
+}
+
+.touch{
+    padding: 1vw 1vw;
+    border-color: rgba(0,0,0,.1);
+    color: #5c5b66;
+    font-size: 1vw;
+    height: 6vw;
+    text-align: center;
+    width: 30vw;
+    margin-top:1vw;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+    
+}
+
+
+
+
+.sub{
+   border-radius: 0.5vw;
+    margin-top: 1vw;
+    width: 10vw;
+    padding: 0.5vw;
+    height: 2.8vw;
+    margin-left: 20vw;
+    
+}
+
+
+
+.link{
+    font-size: 2.3em;  
+}
+
+
+ .link:hover{
+	font-size:1rem;
+	text-decoration: none;
+ }
+
+
+.fa{
+    width:2.9rem;
+    margin-top: 0.3vw;
+}
+
+.in{
+    width:2.9rem;
+    margin-top: 0.3vw;
+}
+
+.wp{
+    width:2.9rem;
+    
+}
+
+.tl{
+    width:2.9rem;
+    margin-top: 0.3vw;
+
+}
+
+
+
+/*********************************************************************************/
+
+@media (max-width:1200px){
+
+   .phone{
+        width:2rem;
+        margin-left: 3vw;
+    }
+
+    .info{
+        font-size: 5vw;
+        margin-left: 13vw;
+
+    }
+
+
+    .info2{
+        display: flex;
+        font-size:3vw;
+        margin-left: 7vw;
+        color: whitesmoke;
+    }
+    
+    .info3{
+        display: flex;
+        font-size:3vw;
+        margin-left: 7vw;
+        color: whitesmoke;
+    }
+
+
+    .link{
+        font-size: 7vw;  
+        
+    }
+    
+    
+     .link:hover{
+        font-size:9vw;
+        text-decoration: none;
+     }
+    
+    
+    .fa{
+        width:9vw;
+        margin-top: 0.3vw;
+    }
+    
+    .in{
+        width:9vw;
+        margin-top: 0.3vw;
+    }
+    
+    .wp{
+       width:9vw;
+        
+    }
+
+    .tl{
+        width: 9vw;
+    }
+
+    .bar3{
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 5vw;
+        
+    
+    }
+
+    .information{
+        padding: 2vw 2vw;
+        border-color: rgba(0,0,0,.1);
+        color: #5c5b66;
+        font-size: 3vw;
+        text-align: center;
+        width: 30vw;
+        margin-top:1vw;
+        border-radius: 0.5vw;
+    }
+    
+    .touch{
+        padding: 1vw 1vw;
+        border-color: rgba(0,0,0,.1);
+        color: #5c5b66;
+        font-size: 3vw;
+        height: 10vw;
+        text-align: center;
+        width: 30vw;
+        margin-top:1vw;
+        font-size: 2.5vw;
+        border-radius: 0.5vw;
+        
+    }
+    
+    
+    .sub{
+       border-radius: 0.5vw;
+        margin-top: 0.5vw;
+        width: 15vw;
+        padding: 0.5vw;
+        font-size: 2vw;
+        height: 5vw;
+        margin-left: 15vw;
+        
+    }
+    
+}
+
