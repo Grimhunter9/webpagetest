@@ -32,8 +32,8 @@ render(){
 
     </Nav>
  
-    </Navbar.Collapse>
-</Navbar>   
+        </Navbar.Collapse>
+        </Navbar>   
 
     </div>
     
