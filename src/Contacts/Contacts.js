@@ -4,7 +4,7 @@ import Facebook from './Face.jpg';
 import Whatsapp from './Wat.jpg';
 import Instagram from './Insta.jpg';
 import Telegram from './Telegram.jpg';
-
+//for whatsapp the number phone is only needed but for other socail media it needs the Username for it to work
 class Contacts extends  React.Component{
     render(){
  

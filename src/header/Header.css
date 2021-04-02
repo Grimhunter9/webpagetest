@@ -66,7 +66,7 @@ nav a:hover{
 
 
 .nav-button{
-	margin-left: 1.3vw;
+	margin-left: 1.6vw;
     display: flex;
 
 }
@@ -74,13 +74,22 @@ nav a:hover{
 
 
 .btn-bar{
-	background:#007BFF;
-	margin:0.1vw;
-	color: white;
-	border-radius: 0.5vw;
+	margin:0.2vw;
+	font-size: 1.2vw;
+	background-color: transparent;	
+	color: black;
+	border-color: transparent;
+	border-bottom-color:black;
+	transition: .2s ease-in-out 0s;
+	
+}
 
-	
-	
+.btn-bar:hover{
+	color: white;
+	border-bottom-color:white;
+	transform: scale(1.25);
+	cursor: pointer;
+
 }
 
 
@@ -136,5 +145,7 @@ nav a:hover{
 	}
 
 }
+
+
 
 	
