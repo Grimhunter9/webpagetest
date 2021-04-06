@@ -19,8 +19,8 @@ class Contacts extends  React.Component{
 
                         <div className="bar2"> 
                         <a className="link" href="https://www.messenger.com/t/username"> <img  className="fa" src={Facebook} alt=""  /> </a>
-                        <a className="link" href="http://www.instagram.com/username"> <img  className="in" src={Instagram} alt="" /> </a>
-                        <a className="link" href="https://telegram.me/username"> <img  className="tl" src={Telegram} alt="" /> </a>
+                        <a className="link" href="http://www.instagram.com/best_future_europ"> <img  className="in" src={Instagram} alt="" /> </a>
+                        <a className="link" href="https://telegram.me/Best-Futur"> <img  className="tl" src={Telegram} alt="" /> </a>
                         <a className="link" href="https://wa.me/+380960498331 "> <img  className="wp" src={Whatsapp} alt="" /> </a>
                         </div>
                      
