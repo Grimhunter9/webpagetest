@@ -31,6 +31,7 @@ class App extends React.Component{
   <div>
   <Header></Header>
    <Roll></Roll>
+ 
 
   
   <div class="content-area">
@@ -45,6 +46,7 @@ class App extends React.Component{
        <Serv/>
        <About/>
        <Contacts/>
+       <div className="end"></div>
    </Route>
 
    
@@ -52,6 +54,7 @@ class App extends React.Component{
        <Serv/>
        <About/>
        <Contacts/>
+       <div className="end"></div>
     </Route>
 
 
@@ -59,17 +62,20 @@ class App extends React.Component{
         <Serv/>
         <About/>
         <Contacts/>
+        <div className="end"></div>
     </Route>
 
     <Route exact path="#Service" component={Serv}> 
         <Serv/>
         <About/>
         <Contacts/>
+        <div className="end"></div>
     </Route>
 
     <Route exact path="/price" component={Price}>
        <Price/>
        <Contacts/>
+       <div className="end"></div>
   </Route>
 
      
