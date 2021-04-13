@@ -4,7 +4,6 @@ import Roll from './Roll/Roll';
 import About from './About/About';
 import Contacts from './Contacts/Contacts';
 import Serv from './Serv/Serv';
-
 import Price from './Price/Price';
 import {BrowserRouter as Router, Route ,Switch} from 'react-router-dom';
 
