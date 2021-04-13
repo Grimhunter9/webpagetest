@@ -18,7 +18,7 @@ render(){
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
         <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="navbar">
+    <Nav className="navbar"> 
 
       <Nav><HashLink smooth className="b" to="/#about">About</HashLink></Nav>
       <Nav><HashLink smooth className="b" to="/#contacts">contacts</HashLink></Nav>
