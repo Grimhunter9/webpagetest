@@ -31,9 +31,9 @@
 .navbar {
 	float: right;
 	color: whitesmoke;   
-
-	
 }
+
+
 
 .moon{
 	display: flex;
@@ -146,6 +146,8 @@ nav a:hover{
 		
 		
 	}
+
+
 
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import Flag from './Flag.png';
 import { FcBusinessman } from "react-icons/fc";
 
-class About extends React.Component{
+class About extends React.Component{ 
     render(){
 
         return( 

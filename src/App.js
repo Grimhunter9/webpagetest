@@ -48,30 +48,8 @@ class App extends React.Component{
        <div className="end"></div>
    </Route>
 
-   
-   <Route exact path="#about"  component={About}> 
-       <Serv/>
-       <About/>
-       <Contacts/>
-       <div className="end"></div>
-    </Route>
 
-
-    <Route exact path="#Contacts" component={Contacts}> 
-        <Serv/>
-        <About/>
-        <Contacts/>
-        <div className="end"></div>
-    </Route>
-
-    <Route exact path="#Service" component={Serv}> 
-        <Serv/>
-        <About/>
-        <Contacts/>
-        <div className="end"></div>
-    </Route>
-
-    <Route exact path="/price" component={Price}>
+    <Route exact path="/price">
        <Price/>
        <Contacts/>
        <div className="end"></div>

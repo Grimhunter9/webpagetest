@@ -5,7 +5,7 @@
 }
 
  
-
+ 
 .info{
     display: flex;
 	font-size: 3.5vw;
@@ -17,8 +17,6 @@
 .phone{
     width:3rem;
     margin-left: 3vw;
-
-
 }
 
  .info2{
@@ -26,8 +24,8 @@
  font-size:1.2rem;
  margin-left: 7vw;
  color: whitesmoke;
-
 }
+
 
 .info3{
     display: flex;
@@ -35,10 +33,12 @@
     margin-left: 7vw;
     color: whitesmoke;
 }
+
 .eml{
     
     color: cornsilk;
 }
+
 .eml:hover{
     text-decoration: none;
     color:rgb(0, 238, 255) ;

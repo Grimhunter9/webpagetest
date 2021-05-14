@@ -15,10 +15,10 @@ render(){
 
         <Navbar className="header" collapseOnSelect expand="lg">
         <Navbar.Brand><img className="earth"  src={Earth} alt=""/>  <p className="mig">The best future</p> </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle   aria-controls="responsive-navbar-nav" />
 
-        <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="navbar"> 
+        <Navbar.Collapse   id="responsive-navbar-nav">
+       <Nav className="navbar"> 
 
       <Nav><HashLink smooth className="b" to="/#about">About</HashLink></Nav>
       <Nav><HashLink smooth className="b" to="/#contacts">contacts</HashLink></Nav>
